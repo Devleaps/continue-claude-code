@@ -1,0 +1,12 @@
+{
+  "name": "continue-claude-code",
+  "version": "0.1.0",
+  "description": "Nudges Claude after inactivity via MCP Channels",
+  "author": {
+    "name": "DevLeaps",
+    "url": "https://github.com/Devleaps"
+  },
+  "homepage": "https://github.com/Devleaps/continue-claude-code",
+  "repository": "https://github.com/Devleaps/continue-claude-code",
+  "keywords": ["channels", "inactivity", "notifications"]
+}

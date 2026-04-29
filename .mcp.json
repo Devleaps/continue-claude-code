@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "continue-claude-code": {
+      "command": "uv",
+      "args": ["run", "--project", "${CLAUDE_PLUGIN_ROOT}", "python", "-m", "continue_claude_code"]
+    }
+  }
+}

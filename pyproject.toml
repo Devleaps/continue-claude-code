@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "continue-claude-code"
+version = "0.1.0"
+description = "MCP Channel plugin that nudges Claude after inactivity"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=3.2.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/continue_claude_code"]
